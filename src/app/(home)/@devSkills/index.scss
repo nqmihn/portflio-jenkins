@@ -1,0 +1,15 @@
+li > p {
+  color: #868e96;
+}
+
+li > svg {
+  color: #868e96;
+}
+
+li > svg:hover {
+  color: hsl(272, 70%, 32%);
+}
+li > svg:hover ~ p {
+  cursor: pointer;
+  color: hsl(272, 70%, 32%);
+}
