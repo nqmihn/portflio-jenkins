@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tool {nodejs "Node-20"}
+    tools {nodejs "Node-20"}
     stages {
         stage("Install indenpencies"){
             steps {
