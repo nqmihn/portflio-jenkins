@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Aaros Showcase",
-  description: "Test",
+  description: "Test 1",
 };
 
 export default function RootLayout({
