@@ -24,10 +24,8 @@ pipeline {
                     echo "Pushing image to dockerhub..."
                     sh "docker push nqmihn/next-portfolio-jenkins:v${env.BUILD_NUMBER}"
                     echo "Completed building and pushing docker image"
-                    sh "docker rmi nqmihn/next-portfolio-jenkins:v${env.BUILD_NUMBER}"
                     sh "docker ps -a"
                     sh "docker images"
-
                 }
             }
 
